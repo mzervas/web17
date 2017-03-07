@@ -1,0 +1,116 @@
+body {
+	background: linear-gradient(to right, #f9b9da, #7acfdb);
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url("../Users/merrizervas/Library/Fonts/Raleway-SemiBold.ttf");
+}
+
+.box {
+	padding: 2%;
+	color: #rgb(137, 187, 238);
+	font-family: 'Raleway';
+	text-align: justify;
+	margin: auto;
+	margin-top: 5%;
+	background: white;
+	width: 40%;
+	isolation: isolate;
+	mix-blend-mode: screen;
+	border-radius: -100px;
+}
+
+.box h1 {
+	text-align: center;
+}
+
+.box h1, h3 {
+	color: black;
+	font-size: 200%;
+	opacity: 0%;
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	/*src: url('WebFont.eot');*/
+	src: url('guldscript_personaluseonly-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('guldscript_personaluseonly-webfont.woff') format('woff'),
+	     url('guldscript_personaluseonly-webfont.ttf') format('truetype'),
+	     url('guldscript_personaluseonly-webfont.svg#webfont') format('svg');
+}
+
+.box h1 {
+	font-size: 400%;
+	font-family: 'MyWebFont';
+	text-align: center;
+}
+.box h2, a {
+	text-align: center;
+	font-family: 'Raleway';
+	text-decoration: none;
+}
+.box p, a {
+	text-shadow: .5px .5px #000;
+	line-height: 150%;
+	color: black;
+	opacity: 0%;
+	font-size: 100%;
+}
+
+
+.box2 {
+	padding: 2%;
+	color: #rgb(137, 187, 238);
+	font-family: 'Raleway';
+	text-align: justify;
+	margin: auto;
+	margin-top: 5%;
+	background: white;
+	width: 40%;
+	isolation: isolate;
+	mix-blend-mode: screen;
+	border-radius: -100px;
+}
+
+.box2 a {
+	text-decoration: none;
+}
+
+#back {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+.box2 h1 {
+	font-size: 400%;
+	font-family: 'MyWebFont';
+	text-align: center;
+}
+
+.box3 h2, p {
+	color: black;
+	font-size: 100%;
+	opacity: 0%;
+	text-shadow: .5px .5px #000;
+
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signature {
+  position: relative;
+  overflow: auto;
+  width: 20%;
+  height: 100;
+  padding-bottom: 55.30973451%;
+  svg:
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
